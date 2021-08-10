@@ -1,9 +1,0 @@
-def compareTriplets(a, b):
-    p=q=0
-    for i in a:
-        if i > b:
-            p=p+1
-        elif i<b:
-            q=q+1
-
-    return (p,q)   
